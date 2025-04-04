@@ -2,7 +2,7 @@ import pandas as pd
 
 def acessa_paises(dados):
  # Lista de IDs dos países da América do Sul
-    america_do_sul_ids = [32, 68, 76, 35, 152, 986, 170, 218,986, 86, 58, 604, 858, 862, 328, 740, 254]
+    america_do_sul_ids = [32, 68, 76, 152, 170, 188, 192, 214, 218, 222, 320, 332, 340, 484, 558, 591, 600, 604, 858, 862]
     # IDs dos países da América do Sul
 
     # Filtrando e armazenando as informações dos países da América do Sul
@@ -20,7 +20,7 @@ def acessa_paises(dados):
                 'historico':paises['historico'],
             })
 
-    # Mostranfo as informações dos países da América do Sul
+    # Mostrando as informações dos países da América do Sul
     print("Informações dos Países da América do Sul:")
     for paises in  america_do_sul_paises:
         print(f"Nome: {paises['nome']}")
